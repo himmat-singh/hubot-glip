@@ -73,6 +73,12 @@ class GlipAdapter extends Adapter {
       groupId: envelope.user.reply_to, text: string
     })
   }
+  
+  sendEnvelope (envelope) {
+    const string = envelope.text
+    this.robot.logger.info('sendEnvelope ' + JSON.stringify(envelope, null, 4) + '\n\n' + string)
+    this.rc.post('/restapi/v1.0/glip/posts', envelope)
+  }
 
   reply (envelope, ...strings) {
     const string = strings[0]
