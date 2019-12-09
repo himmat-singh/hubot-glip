@@ -1,4 +1,4 @@
-# hubot-glip
+# hubot-glip-himmat
 
 [Hubot](https://hubot.github.com/) adapter to use with [Glip](https://glip.com/).
 
