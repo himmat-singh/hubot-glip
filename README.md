@@ -92,7 +92,7 @@ RINGCENTRAL_SERVER=https://platform.devtest.ringcentral.com \
 RINGCENTRAL_CLIENT_ID=clientId \
 RINGCENTRAL_CLIENT_SECRET=clientSecret \
 RINGCENTRAL_BOT_SERVER=https://the-bot-server \
-npx hubot -a glip -n x
+npx hubot -a glip-himmat -n x
 ```
 
 - `RINGCENTRAL_SERVER` - This is the Glip API server. Optional. By default it's `https://platform.ringcentral.com`. Use `https://platform.devtest.ringcentral.com` for sandbox
