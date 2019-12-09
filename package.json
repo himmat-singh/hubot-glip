@@ -1,7 +1,7 @@
 {
   "name": "hubot-glip-himmat",
   "version": "2.4.3",
-  "description": "Modified Hubot adapter to use with Glip for interactive posts",
+  "description": "Modified Tyler Long Hubot Glip adapter that can post interactive glip posts",
   "keywords": [
     "glip",
     "hubot",
