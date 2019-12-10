@@ -1,6 +1,6 @@
 # hubot-glip-himmat
 
-This whole work taken from Tyler-Long (https://github.com/tylerlong/hubot-glip) and apply few customization to it so it can work with interactive glip posts.
+This whole work taken from [Tyler Long Hubot-Glip Adapter](https://github.com/tylerlong/hubot-glip) and apply few customization to it so it can work with interactive glip posts.
 
 [Hubot](https://hubot.github.com/) adapter to use with [Glip](https://glip.com/).
 
