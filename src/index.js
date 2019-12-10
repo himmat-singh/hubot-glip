@@ -66,15 +66,7 @@ class GlipAdapter extends Adapter {
     this.robot.logger.info('Subscription created')
   }
 
-  send (envelope, ...strings) {
-    const string = strings[0]
-    this.robot.logger.info('send ' + JSON.stringify(envelope, null, 4) + '\n\n' + string)
-    this.rc.post('/restapi/v1.0/glip/posts', {
-      groupId: envelope.user.reply_to, text: string
-    })
-  }
-  
-  sendEnvelope (envelope) {
+  send (envelope) {
     const string = envelope.text
     this.robot.logger.info('sendEnvelope ' + JSON.stringify(envelope, null, 4) + '\n\n' + string)
     this.rc.post('/restapi/v1.0/glip/posts', envelope)
