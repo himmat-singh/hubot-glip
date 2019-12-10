@@ -1,6 +1,6 @@
 {
   "name": "hubot-glip-himmat",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "This whole work taken from [Tyler Long Hubot-Glip Adapter](https://github.com/tylerlong/hubot-glip) and apply few customization to it so it can work with interactive glip posts.",
   "keywords": [
     "glip",
